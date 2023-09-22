@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb+srv://salaoUser:oiTydFzvohD5Y1q0@clusterdev.wdbyasq.mongodb.net/?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://salaoUser:oiTydFzvohD5Y1q0@clusterdev.wdbyasq.mongodb.net/salao-na-mao?retryWrites=true&w=majority', {
   useNewUrlParser: true, // Remova esta linha
   useUnifiedTopology: true, // Adicione esta linha
 });

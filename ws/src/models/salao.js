@@ -20,7 +20,6 @@ senha: {
 
 telefone: {
     type:String,
-    required: [true, 'Telefone é obrigatório.']
 },
 endereco: {
     cidade: String,
